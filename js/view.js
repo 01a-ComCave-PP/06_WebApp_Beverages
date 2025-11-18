@@ -36,6 +36,7 @@ function isInputValid() { // Frage: Is input valid?
     if (!cond) {
         gui.dom.field.value = "";
         updateImg(["tee"]);
+        updateTxt(["tee"]);
     } 
     return cond;
 }
